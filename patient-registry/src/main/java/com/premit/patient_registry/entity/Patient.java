@@ -7,8 +7,9 @@ import lombok.Data;
 import java.time.LocalDate;
 
 
+@Data
 @Entity
-@Table(name="patient_dtls")
+@Table(name="patient_register")
 public class Patient {
 
     @SequenceGenerator(name="patient_id_gen",
